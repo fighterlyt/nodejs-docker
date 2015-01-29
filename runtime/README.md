@@ -1,16 +1,16 @@
-# google/nodejs-runtime
+# readytalk/nodejs-runtime
 
-[`google/nodejs-runtime`](https://index.docker.io/u/google/nodejs-runtime) is a [docker](https://docker.io) base image for easily running [nodejs](https://nodejs.org) application.
+[`readytalk/nodejs-runtime`](https://index.docker.io/u/readytalk/nodejs-runtime) is a [docker](https://docker.io) base image for easily running [nodejs](https://nodejs.org) application.
 
 It can automatically bundle a nodejs application with its dependencies and set the default entrypoint with no additional Dockerfile instructions.
 
-It is based on [`google/nodejs`](https://index.docker.io/u/google/nodejs) base image.
+It is based on [`readytalk/nodejs`](https://index.docker.io/u/readytalk/nodejs) base image.
 
 ## Usage
 
 - Create a Dockerfile in your nodejs application directory with the following content:
 
-        FROM google/nodejs-runtime
+        FROM readytalk/nodejs-runtime
 
 - Run the following command in your application directory:
 
@@ -18,7 +18,7 @@ It is based on [`google/nodejs`](https://index.docker.io/u/google/nodejs) base i
 
 ## Sample
   
-See the [sources](/hello) for [`google/nodejs-hello`](https://index.docker.io/u/google/nodejs-hello) based on this image.
+See the [sources](/hello) for [`readytalk/nodejs-hello`](https://index.docker.io/u/readytalk/nodejs-hello) based on this image.
 
 ## Notes
 
