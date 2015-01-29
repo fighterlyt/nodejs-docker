@@ -1,4 +1,4 @@
-FROM google/nodejs
+FROM readytalk/nodejs
 
 WORKDIR /app
 ONBUILD ADD package.json /app/
